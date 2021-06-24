@@ -1,0 +1,6 @@
+BASH
+
+ls conteudo da pasta
+explorer . abrir pasta
+cd .. voltar
+cd nome-da-pasta/: entrar em uma pasta
