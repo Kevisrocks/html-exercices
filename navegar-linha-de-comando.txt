@@ -4,3 +4,9 @@ ls conteudo da pasta
 explorer . abrir pasta
 cd .. voltar
 cd nome-da-pasta/: entrar em uma pasta
+
+
+git status - saber a situação atual dos arquivos
+git push - mandar pro servidor
+git commit -m"comentarios"
+git add site-guitar - arquivo que quer adicionar
