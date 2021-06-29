@@ -6,7 +6,9 @@ cd .. voltar
 cd nome-da-pasta/: entrar em uma pasta
 
 
+
 git status - saber a situação atual dos arquivos
 git push - mandar pro servidor
-git commit -m"comentarios"
+git commit -m"comentarios" 
+salvar o comentario= esc : w q enter
 git add site-guitar - arquivo que quer adicionar
