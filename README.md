@@ -1,2 +1,2 @@
-# html-exercices
-General HTML exercices with learn porpouses
+# html-exercises
+General HTML exercises with learn porpouses
