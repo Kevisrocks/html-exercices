@@ -15,8 +15,13 @@ body{
 .hero-content{
     text-align: center;
     color: white;
+<<<<<<< HEAD
     margin-top: 120px;
+=======
+    margin-top: 150px;
+>>>>>>> 56cea805735cc49b6bcb3b5406630c3b1d44fa71
 }
+
 
 .hero-content h1{
     text-transform: uppercase;
@@ -24,31 +29,63 @@ body{
     text-shadow: 3px 3px 5px black;
 }
 
+<<<<<<< HEAD
 .hero nav ul{
     text-align: right;
     margin: 10px 25px 0 0;
+=======
+.card{
+    float: left;
+    margin: 3px;
+    width: calc(33.33% - 6px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0px 0px;
+>>>>>>> 56cea805735cc49b6bcb3b5406630c3b1d44fa71
 }
 
 .hero nav li{
     display: inline-block;
     list-style: none;
+<<<<<<< HEAD
     border: 1px solid white;
 }
 
 .hero nav a{
     background: black;
     background: rgba(0,0,0,0.3);
+=======
+    border:1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0,0,0, 0.3);
+>>>>>>> 56cea805735cc49b6bcb3b5406630c3b1d44fa71
     display: block;
     padding: 10px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size:12px;
+>>>>>>> 56cea805735cc49b6bcb3b5406630c3b1d44fa71
     letter-spacing: 2px;
 }
 
 .hero nav a:hover{
+<<<<<<< HEAD
     background: rgba(0,0,0,0.5)
+=======
+    background: rgba(0,0,0, 0.5);
+>>>>>>> 56cea805735cc49b6bcb3b5406630c3b1d44fa71
 }
 
 main{
