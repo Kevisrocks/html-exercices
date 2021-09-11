@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: whitesmoke;
+    margin: 0;
+}
+
+#fashionlogo{
+    background-image: url(imagens/logo.png);
+    height:60px;
+    width: 200px;
+    background-size:cover;
+    background-position: left;
+
+}
+
+
+.modelo-capa{
+    background-image: url(imagens/topo.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
