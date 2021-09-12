@@ -4,13 +4,13 @@ body{
     margin: 0;
 }
 
-#fashionlogo{
+.fashionlogo{
     background-image: url(imagens/logo.png);
     height:60px;
     width: 200px;
     background-size:cover;
     background-position: left;
-
+    
 }
 
 
@@ -19,4 +19,12 @@ body{
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+nav ul{
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
 }
