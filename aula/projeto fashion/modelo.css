@@ -4,27 +4,29 @@ body{
     padding: 0;
 }
 
-#principal{
-    width: 1024px;
-    margin: 20px auto;
-} 
+
 
 .header-top{
     height: 50px;
     background: #162028;
-    position: relative;
-    
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .logotipo{
     margin: 5px 0 0 135px;
+    float: left;
 }
 
 .header-nav{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
+    float: right;
 }
 .header-nav ul{
     margin: 0;
@@ -47,6 +49,10 @@ body{
 
 .header-nav a:hover{
     color: white;
+}
+.main-banner{
+    width: 100%;
+    height: auto;
 }
 
 .portfolio{
@@ -74,7 +80,7 @@ body{
 }
 
 .gallery-card{
-    width:32%;
+    width:33.33%;
     float: left;
     text-align: center;
 
@@ -128,6 +134,12 @@ body{
     margin-top: 15px;
     margin-bottom: 100px;
     
+}
+
+.maps iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
 }
 
 .rodape{
