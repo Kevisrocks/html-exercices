@@ -1,10 +1,191 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 242, 234);
+    
+    
 }
 
 .banner{
-    background-image: url(../)
+    background-image: url(../will\ project/header.jpeg);
+    height: 598px;
+    width: 100%;
+    background-size: cover;  
+    
+}
+
+.banner nav ul{
+    text-align: right;
+    margin-right: 100px;
+}
+
+.banner nav li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 25px; 
+    font-size: 10px;
+}
+
+.banner a{
+    color: rgb(192, 125, 11); 
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 8px; 
+}
+
+.banner-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    line-height: 35px;
+    height: 3px;
+}
+
+.banner-text{
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;       
+}
+
+.banner-container{
+    margin-left: 100px;
+    margin-top: 150px; 
+}
+
+.button{
+    background: rgb(143, 13, 13);
+    border: rgb(143, 13, 13) 1px solid;
+    display: inline;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 25px 10px 25px;
+}
+.button-sections{
+    background: rgb(143, 13, 13);
+    border: rgb(143, 13, 13) 1px solid;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: left;
+    padding: 15px 40px;
+    text-transform: uppercase;   
+}
+
+
+.sec1{
+    text-align: center;
+    margin-top: 170px;
+    width: auto;
+}
+
+
+.sec1 p{
+    text-align: left;
+    font-size: 12px;
+}
+
+.new-classes{
+    background-color: rgb(199, 196, 196);
+    display: inline-block;
+    height: 400px;
+    width: 31%;
+    padding: 80px 60px;
+    box-sizing: border-box;
+    
+        
+}
+
+.new-classes-middle{
+    background-color: rgb(17, 17, 17);
+    height: 400px;
+    width: 31%;
+    display: inline-block;
+    color: white;
+    padding: 80px 60px;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.new-classes h2{
+    color: rgb(192, 125, 11); 
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+.new-classes h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.new-classes-middle h2{
+    color: rgb(192, 125, 11); 
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+.new-classes-middle h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+
+main{
+    width: auto;
+    margin-top: 350px;
+    
+}
+
+.ourclasses h2{
+    text-transform: uppercase;
+    color: rgb(192, 125, 11); 
+}
+
+ .ourclasses h4{
+     text-transform: uppercase;
+
+ }  
+ 
+ 
+ 
+ .ourclasses-art1 img{
+     float: right;
+     width: 50%;
+     margin-right: 3.5%;
+ }
+ 
+ .ourclasses-art2 img{
+    float: left;
+    width: 50%;
+    margin-left: 3.5%;}
+
+ 
+ .ourclasses-art3 img{
+    float: right;
+    width: 50%;
+    margin-right: 3.5%;}
+
+ .ourclasses-art-clear{
+     clear: both;
+ }
     
 
-}
+
+
+
 
