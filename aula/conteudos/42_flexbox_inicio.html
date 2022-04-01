@@ -13,9 +13,9 @@
                 height: 250px;
                 border: 1px solid red;
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                flex-flow: row nowrap;
+                /*flex-direction: row;
+                flex-wrap: wrap;*/
+                
                 margin-bottom: 15px;
             }
             
@@ -26,18 +26,17 @@
             }
             
             .flexbox:nth-child(4){
-                /*flex-direction: row;
-                flex-wrap: wrap; */
-                flex-flow: nowrap;
+                
+                flex-flow: row nowrap;
             }
 
             .flexbox:nth-child(5){
-                justify-content: space-between;
-
+                justify-content:flex-end;
+                
             }
-
+            
             .flexbox:nth-child(5) div{
-                width: 20px;
+                width: 40px;
             }
 
             .flexbox:nth-child(5){
@@ -56,14 +55,96 @@
             
             .flexbox:nth-child(8){
                 justify-content: center;
-                align-items: flex-end;
+               /* align-items: center; */
                 flex-wrap: wrap;
-                align-content: flex-start;
+                align-content: stretch;
             }
             
             .flexbox:nth-child(8) div{
                 width: 100px;
             }
+
+            .flexbox:nth-child(9){
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+            }
+            .flexbox:nth-child(9) div{
+                background: yellow;
+                flex-basis: 100px;
+            }
+            
+            .flexbox:nth-child(10){
+                justify-content: center;
+                align-items: center;
+            }
+            .flexbox:nth-child(10) div{
+                background: yellow;
+                flex-basis: 100px;
+                height: 50px;
+            }
+            
+            .flexbox:nth-child(10) div:nth-child(2){
+               flex-grow: 2;
+            }
+            
+            .flexbox:nth-child(10) div:nth-child(4){
+               flex-grow: 1;
+            }
+
+         
+            .flexbox:nth-child(11) div{
+                background: red;
+                flex-basis: 150px;
+                height: 50px;
+                margin: 5px;
+            }
+            
+            .flexbox:nth-child(11) div:nth-child(2){
+               flex-shrink: 4;
+            }
+            .flexbox:nth-child(11) div:nth-child(4){
+              /* flex-shrink: 1;*/
+               /* grow, shrink, basis*/
+               flex:  1 0 100px;
+            }
+
+            .flexbox:nth-child(12) div:nth-child(2){
+                order: 3;
+            }
+
+            .flexbox:nth-child(13){
+                align-items: flex-start;
+            }
+
+            .flexbox:nth-child(13) div:nth-child(2){
+                align-items: flex-start;
+                align-self: flex-end;
+            }
+
+            .flexbox:nth-child(13) div:nth-child(3){
+                align-items: flex-start;
+                align-self: center;
+            }
+
+            .flexbox:nth-child(13) div:nth-child(1){
+                align-items: flex-start;
+                align-self: stretch;
+            }
+
+            .flexbox:nth-child(14) {
+                justify-content: center;
+                align-items: flex-end;
+                
+            }
+
+            .flexbox:nth-child(14) div{
+                flex-basis: 60px;
+            }
+
+
+
+
             
 
 
@@ -104,6 +185,76 @@
             <div class="div4">4</div>
         </div>
 
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        
         <div class="flexbox">
             <div class="div1">1</div>
             <div class="div2">2</div>
