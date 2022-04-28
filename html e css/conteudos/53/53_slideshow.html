@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    @keyframes slide{
+        0%{
+            transform: translateY(0);
+        }
+
+        22%{
+            transform: translateY(0);
+        }
+
+        25%{
+            transform: translateY(-50vh);
+        }
+
+        47%{
+            transform: translateY(-50vh);
+        }
+
+        50%{
+            transform: translateY(-100vh);
+        }
+
+        72%{
+            transform: translateY(-100vh);
+        }
+
+        75%{
+            transform: translateY(-150vh);
+        }
+
+        97%{
+            transform: translateY(-150vh);
+        }
+
+        100%{
+            transform: translateY(0vh);
+        }
+    }
+    body{
+        font-family: sans-serif;
+        color: white;
+        background: #1a1818;
+        margin: 0;
+    }
+
+    #slide-externo{
+        width: 80vw;
+        height: 50vh;
+        border: 10px solid white;
+        box-shadow: 0 0 10px black;
+        margin-left: 10vw;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    #slide-interno{
+        width: 100%;  
+        animation: slide 15s infinite; 
+    }
+
+    #slide-interno img{
+        display: block;
+        height: 50vh;
+        width: 100%;
+       /*  object-fit: cover; */
+    }
+</style>
+
+</head>
+<body>
+   <h2>Animation - slideshow</h2>
+
+   <div id="slide-externo">
+       <div id="slide-interno">
+           <img src="slide1.jpg" alt="dog1">
+           <img src="slide2.jpg" alt="dog2">
+           <img src="slide3.jpg" alt="dog3">
+           <img src="slide4.jpg" alt="dog4">
+       </div>
+   </div>
+   
+</body>
+</html>
